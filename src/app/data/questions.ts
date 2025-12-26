@@ -293,7 +293,7 @@ export const QUESTIONS: Question[] = [
       'Prompt Execute Template permission set',
       'Prompt Template User permission set',
     ],
-    correctAnswer: 'rompt Template User permission set',
+    correctAnswer: 'Prompt Template User permission set',
   },
   {
     question:
@@ -1196,7 +1196,7 @@ export const QUESTIONS: Question[] = [
       'Semantic-based passage extraction',
       'Conversation-based chunking',
     ],
-    correctAnswer: 'Semantic-based passage extraction',
+    correctAnswer: 'Section-aware chunking',
   },
   {
     question:
@@ -2029,6 +2029,6 @@ export const QUESTIONS: Question[] = [
       'Specify the large language model (LLM) provider and version.',
       'Specify custom variables and filters.',
     ],
-    correctAnswer: 'Specify custom variables and filters',
+    correctAnswer: 'Specify custom variables and filters.',
   },
 ];
