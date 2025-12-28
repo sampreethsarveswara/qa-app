@@ -11,7 +11,7 @@
   <!-- existing quiz UI -->
   <!-- QUESTION NUMBER NAVIGATION -->
 
-  <h2>Question {{ currentIndex + 1 }} / {{ questions.length }}</h2>
+  <h2>Question {{ questionNumberOffset + currentIndex + 1 }}</h2>
 
   <p class="question">
     {{ questions[currentIndex].question }}
@@ -75,7 +75,7 @@
       [class.answered]="q.selectedAnswer"
       [class.skipped]="!q.selectedAnswer && i < currentIndex"
     >
-      {{ i + 1 }}
+      {{ questionNumberOffset + i + 1 }}
     </button>
   </div>
 </div>

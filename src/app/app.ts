@@ -15,6 +15,13 @@ export class AppComponent {
   // showResult = false;
   // score = 0;
 
+  testOffsets: Record<number, number> = {
+    1: 0,
+    2: 62,
+    3: 124,
+    4: 186,
+  };
+
   allQuestions = QUESTIONS;
   questions: Question[] = [];
 
@@ -31,8 +38,12 @@ export class AppComponent {
     this.showQuestionNav = !this.showQuestionNav;
   }
 
+  questionNumberOffset = 0;
+
   startTest(testId: number) {
     this.selectedTestId = testId;
+
+    this.questionNumberOffset = this.testOffsets[testId] ?? 0;
 
     this.questions = this.allQuestions
       .filter((q) => q.testId === testId)
@@ -44,7 +55,6 @@ export class AppComponent {
       }));
 
     this.currentIndex = 0;
-    this.score = 0;
     this.showResult = false;
     this.showTestSelection = false;
   }
