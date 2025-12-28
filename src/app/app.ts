@@ -10,10 +10,38 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
 })
 export class AppComponent {
-  questions: Question[] = QUESTIONS.map((q) => ({ ...q }));
+  // questions: Question[] = QUESTIONS.map((q) => ({ ...q }));
+  // currentIndex = 0;
+  // showResult = false;
+  // score = 0;
+
+  allQuestions = QUESTIONS;
+  questions: Question[] = [];
+
+  selectedTestId: number | null = null;
+  showTestSelection = true;
+
   currentIndex = 0;
   showResult = false;
   score = 0;
+
+  startTest(testId: number) {
+    this.selectedTestId = testId;
+
+    this.questions = this.allQuestions
+      .filter((q) => q.testId === testId)
+      .map((q) => ({
+        ...q,
+        selectedAnswer: undefined,
+        isChecked: false,
+        isCorrect: false,
+      }));
+
+    this.currentIndex = 0;
+    this.score = 0;
+    this.showResult = false;
+    this.showTestSelection = false;
+  }
 
   selectAnswer(answer: string) {
     const current = this.questions[this.currentIndex];
@@ -31,8 +59,8 @@ export class AppComponent {
   nextQuestion() {
     const current = this.questions[this.currentIndex];
 
-    // auto-evaluate silently if user skipped "Check"
-    if (!current.isChecked && current.selectedAnswer) {
+    // auto-evaluate only if answered
+    if (current.selectedAnswer && !current.isChecked) {
       current.isCorrect = current.selectedAnswer === current.correctAnswer;
     }
 
@@ -44,17 +72,24 @@ export class AppComponent {
     }
   }
 
+  goToQuestion(index: number) {
+    this.currentIndex = index;
+  }
+
+  previousQuestion() {
+    if (this.currentIndex > 0) {
+      this.currentIndex--;
+    }
+  }
+
   calculateScore() {
     this.score = this.questions.filter((q) => q.isCorrect).length;
   }
 
   restartQuiz() {
-    this.questions = QUESTIONS.map((q) => ({
-      ...q,
-      selectedAnswer: undefined,
-      isChecked: false,
-      isCorrect: false,
-    }));
+    this.showTestSelection = true;
+    this.selectedTestId = null;
+    this.questions = [];
     this.currentIndex = 0;
     this.score = 0;
     this.showResult = false;

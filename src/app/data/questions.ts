@@ -11,6 +11,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a screen flow to collect sales order number and invoke the prompt template using the standard "Prompt \nTemplate" flow action.',
+    testId: 1,
   },
   {
     question:
@@ -22,18 +23,21 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Ensure all dependencies are included, Apex classes meet 75% test coverage, and configuration settings are Plan for version management and post-deployment activation.',
+    testId: 1,
   },
   {
     question:
       'The sales team at a hotel resort would like to generate a guest summary about the guests’ interests and provide recommendations \nbased on their activity preferences captured in each guest profile. They want the summary to be available only on the contact \nrecord page. \nWhich Al capability should the tearm use?',
     answers: ['Model Builder', 'Prompt Builder', 'Agent Builder'],
     correctAnswer: 'Prompt Builder',
+    testId: 1,
   },
   {
     question:
       'Which element in the Omni-Channel flow should be used to connect the flow with the agent?',
     answers: ['Assignment', 'Decision', 'Route Work Action'],
     correctAnswer: 'Route Work Action',
+    testId: 1,
   },
   {
     question: 'What is the importance of Action Instructions when creating a custom Agent action?',
@@ -43,6 +47,7 @@ export const QUESTIONS: Question[] = [
       'Action Instructions tell the user how to call this action in a conversation.',
     ],
     correctAnswer: 'Action Instructions tell the large language model (LLM) which action to use.',
+    testId: 1,
   },
   {
     question:
@@ -54,6 +59,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Assign Data Categories to Knowledge articles, and define Data Category filters in the Agentforce Data Library.',
+    testId: 1,
   },
   {
     question:
@@ -65,6 +71,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Ensure the assigned User permission set includes access to the prompt template used to access the Knowledge \narticles.',
+    testId: 1,
   },
   {
     question:
@@ -75,6 +82,7 @@ export const QUESTIONS: Question[] = [
       'It shows the full text that is sent to the Trust Layer.',
     ],
     correctAnswer: 'It shows the full text that is sent to the Trust Layer.',
+    testId: 1,
   },
   {
     question:
@@ -85,12 +93,14 @@ export const QUESTIONS: Question[] = [
       'Increase the maximum number of results returned to capture a broader dataset.',
     ],
     correctAnswer: 'Define filters to narrow the search results based on specific conditions.',
+    testId: 1,
   },
   {
     question:
       'An Agentforce Specialist is creating a custom action in Agentforce. \nWhich option ts available for the Agentforce Specialist to choose for the custom Agent action?',
     answers: ['SOOL', 'Apex trigger', 'Flows'],
     correctAnswer: 'Flows',
+    testId: 1,
   },
   {
     question:
@@ -101,6 +111,7 @@ export const QUESTIONS: Question[] = [
       'Field Generation, and that Dynamic Forms is enabled',
     ],
     correctAnswer: 'Field Generation, and that Dynamic Forms is enabled',
+    testId: 1,
   },
   {
     question:
@@ -112,6 +123,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a Flex template to add resources with standard and custom objects as inputs.',
+    testId: 1,
   },
   {
     question:
@@ -122,6 +134,7 @@ export const QUESTIONS: Question[] = [
       "Determine a user's topic access and sort actions by priority to be executed",
     ],
     correctAnswer: 'Identify the best matching topic and actions and correct order of execution',
+    testId: 1,
   },
   {
     question:
@@ -132,6 +145,7 @@ export const QUESTIONS: Question[] = [
       'Create a field set for all the fields to be grounded',
     ],
     correctAnswer: 'Create a field set for all the fields to be grounded',
+    testId: 1,
   },
   {
     question:
@@ -142,6 +156,7 @@ export const QUESTIONS: Question[] = [
       'The related list is Read Only.',
     ],
     correctAnswer: "The related list is not on the parent object's page layout.",
+    testId: 1,
   },
   {
     question:
@@ -153,6 +168,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The Agentforce Service Agent user was not given the Allow View Knowledge permission set.',
+    testId: 1,
   },
   {
     question:
@@ -164,12 +180,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The Apex classes must have at least 75% code coverage from unit tests, and all dependencies must be in the \ndeployment package.',
+    testId: 1,
   },
   {
     question:
       "An Agentforce Specialist wants to troubleshoot their Agent's performance. Where should the Agentforce Specialist go to access all \nuser interactions with the Agent, including Agent errors, incorrectly triggered actions, and incomplete plans?",
     answers: ['Event Logs', 'Agent Settings', 'Plan Canvas'],
     correctAnswer: 'Event Logs',
+    testId: 1,
   },
   {
     question:
@@ -181,6 +199,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Configure a custom retriever that includes a filter condition limiting retrieval to documents updated within a \ndefined recent period, ensuring that only current content is used for Al responses.',
+    testId: 1,
   },
   {
     question:
@@ -191,6 +210,7 @@ export const QUESTIONS: Question[] = [
       'Creating an estimated Customer Lifetime Value (CLV) with historical purchase data',
     ],
     correctAnswer: 'Creating a draft newsletter for an upcoming tradeshow',
+    testId: 1,
   },
   {
     question:
@@ -201,6 +221,7 @@ export const QUESTIONS: Question[] = [
       'Einstein Recommendation Builder',
     ],
     correctAnswer: 'Einstein Prompt Builder and Prompt Templates',
+    testId: 1,
   },
   {
     question:
@@ -211,6 +232,7 @@ export const QUESTIONS: Question[] = [
       'Matched opportunities are limited to the same account.',
     ],
     correctAnswer: 'Matched opportunities have a status of Closed Won from last 12 months.',
+    testId: 1,
   },
   {
     question:
@@ -221,6 +243,7 @@ export const QUESTIONS: Question[] = [
       "The user's locale language is not supported by Prompt Builder.",
     ],
     correctAnswer: 'The user does not have permission to access the fields.',
+    testId: 1,
   },
   {
     question:
@@ -231,6 +254,7 @@ export const QUESTIONS: Question[] = [
       'Agent Action: Summarize Record',
     ],
     correctAnswer: 'Agent Action: Draft or Revise Sales Email',
+    testId: 1,
   },
   {
     question:
@@ -241,6 +265,7 @@ export const QUESTIONS: Question[] = [
       'Prompt Template Manager and Prompt Template User',
     ],
     correctAnswer: 'Data Cloud Admin and Prompt Template Manager',
+    testId: 1,
   },
   {
     question:
@@ -252,6 +277,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Execute tasks based on available actions, answering questions using information from accessible Knowledge \narticles.',
+    testId: 1,
   },
   {
     question:
@@ -263,6 +289,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Identifying fields help locate the correct Knowledge article, while content fields enrich AI responses with detailed \ninformation.',
+    testId: 1,
   },
   {
     question:
@@ -273,6 +300,7 @@ export const QUESTIONS: Question[] = [
       'Email generation prompt ternplate',
     ],
     correctAnswer: 'Flex prompt template',
+    testId: 1,
   },
   {
     question:
@@ -284,6 +312,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Ask it to role-play as a character in the prompt template to provide more context to the LLM.',
+    testId: 1,
   },
   {
     question:
@@ -294,6 +323,7 @@ export const QUESTIONS: Question[] = [
       'Prompt Template User permission set',
     ],
     correctAnswer: 'Prompt Template User permission set',
+    testId: 1,
   },
   {
     question:
@@ -305,6 +335,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Set up an Agentforce Data Library to store and index policy documents for Al retrieval.',
+    testId: 1,
   },
   {
     question:
@@ -315,6 +346,7 @@ export const QUESTIONS: Question[] = [
       'Al Audit and Feedback Data dashboard',
     ],
     correctAnswer: 'Al Audit and Feedback Data dashboard',
+    testId: 1,
   },
   {
     question: 'What is true of Agentforce Testing Center?',
@@ -324,12 +356,14 @@ export const QUESTIONS: Question[] = [
       'Agentforce Testing Center can only be used in a production environment.',
     ],
     correctAnswer: 'Running tests risks modifying CRM data in a production environment.',
+    testId: 1,
   },
   {
     question:
       'Universal Containers implements Custom Agent Actions to enhance its customer service operations. The development team \nneeds to understand the core components of a Custom Agent Action to ensure proper configuration and functionality. \nWhat should the development team review in the Custom Agent Action configuration to identify one of the core components of a \nCustom Agent Action?',
     answers: ['Action Triggers', 'Output Types', 'Instructions'],
     correctAnswer: 'Instructions',
+    testId: 1,
   },
   {
     question:
@@ -341,6 +375,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'When the AI agent must provide answers based on a curated set of policy documents that are stored, regularly \nupdated, and indexed in the data library.',
+    testId: 1,
   },
   {
     question: 'What is a valid use case for Data Cloud retrievers?',
@@ -350,6 +385,7 @@ export const QUESTIONS: Question[] = [
       'Grounding data from external websites to augment a prompt with RAG',
     ],
     correctAnswer: 'Returning relevant data from the vector database to augment a prompt',
+    testId: 1,
   },
   {
     question:
@@ -360,6 +396,7 @@ export const QUESTIONS: Question[] = [
       'Save as New Template and edit as needed.',
     ],
     correctAnswer: 'Save as New Template and edit as needed.',
+    testId: 1,
   },
   {
     question:
@@ -370,6 +407,7 @@ export const QUESTIONS: Question[] = [
       'Assign the Manage Users permission to the Agentforce Agent user.',
     ],
     correctAnswer: 'Assign the Run Flows permission to the Agentforce Agent user.',
+    testId: 1,
   },
   {
     question:
@@ -380,6 +418,7 @@ export const QUESTIONS: Question[] = [
       'Set up an Agentforce Data Library for AI retrieval of policy documents.',
     ],
     correctAnswer: 'Set up an Agentforce Data Library for AI retrieval of policy documents.',
+    testId: 1,
   },
   {
     question:
@@ -390,6 +429,7 @@ export const QUESTIONS: Question[] = [
       'SDR Agent only works in Email channel.',
     ],
     correctAnswer: 'SDR Agent must be deployed in Messaging channel.',
+    testId: 1,
   },
   {
     question:
@@ -400,12 +440,14 @@ export const QUESTIONS: Question[] = [
       'The prompt template version ts incompatible with the chosen LLM.',
     ],
     correctAnswer: 'The data being used for grounding Is incorrect or incomplete.',
+    testId: 1,
   },
   {
     question:
       "Universal Containers would like to route SMS text messages to a service rep from an Agentforce Service Agent. \nWhich Service Channel should the company use tn the flow to ensure it's routed properly?",
     answers: ['Live Agent', 'Route Work Action', 'Messaging'],
     correctAnswer: 'Messaging',
+    testId: 1,
   },
   {
     question:
@@ -417,6 +459,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a custom retriever in Einstein Studio, and apply filters for publication date and product line.',
+    testId: 1,
   },
   {
     question:
@@ -428,6 +471,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Select the search index, specify the associated data model object (DMO) and data space, and optionally define \nfilters to narrow search results.',
+    testId: 1,
   },
   {
     question:
@@ -438,6 +482,7 @@ export const QUESTIONS: Question[] = [
       'Create a custom Record Summary prompt template for the Case object.',
     ],
     correctAnswer: 'Create a custom Record Summary prompt template for the Case object.',
+    testId: 1,
   },
   {
     question:
@@ -449,6 +494,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The number of tokens generated by the dynamic nature of the prompt template will vary by record.',
+    testId: 1,
   },
   {
     question:
@@ -459,6 +505,7 @@ export const QUESTIONS: Question[] = [
       'Indexes the uploaded files in Salesforce File Storage',
     ],
     correctAnswer: 'Indexes the uploaded files into Data Cloud',
+    testId: 1,
   },
   {
     question:
@@ -469,6 +516,7 @@ export const QUESTIONS: Question[] = [
       'General O&A topic and Knowledge Article Answers action',
     ],
     correctAnswer: 'General FAQ topic and Answers Questions with Knowledge Action',
+    testId: 1,
   },
   {
     question:
@@ -479,6 +527,7 @@ export const QUESTIONS: Question[] = [
       'Run Agent Analytics.',
     ],
     correctAnswer: 'Run Agent Analytics.',
+    testId: 1,
   },
   {
     question:
@@ -490,6 +539,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Enable Einstein Conversation Insights, connect a recording provider, assign permission sets, and customize \ninsights with up to 25 products.',
+    testId: 1,
   },
   {
     question:
@@ -500,12 +550,14 @@ export const QUESTIONS: Question[] = [
       'With a generated error message',
     ],
     correctAnswer: 'With a general message asking the user to rephrase the request',
+    testId: 1,
   },
   {
     question:
       'Universal Containers wants to utilize Agentforce for Sales to help sales reps reach their sales quotas by providing Al-generated \nplans containing guidance and steps for closing deals. \nWhich feature meets this requirement?',
     answers: ['Create Account Plan', 'Create Close Plan', 'Find Similar Deals'],
     correctAnswer: 'Create Close Plan',
+    testId: 1,
   },
   {
     question:
@@ -517,6 +569,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Empty data, such as fields without values or sections without limits, is filtered out.',
+    testId: 1,
   },
   {
     question:
@@ -528,6 +581,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "Create a CSV file with UC's test cases in Agentforce Testing Center using the testing template.",
+    testId: 1,
   },
   {
     question:
@@ -538,6 +592,7 @@ export const QUESTIONS: Question[] = [
       'Einstein Reply Recommendations and Case Classification',
     ],
     correctAnswer: 'Einstein Service Replies and Work Summaries',
+    testId: 1,
   },
   {
     question: 'What is automatically created when a custom search index Is created in Data Cloud?',
@@ -547,6 +602,7 @@ export const QUESTIONS: Question[] = [
       'A predefined Apex retriever class that can be edited by a developer to meet specific needs',
     ],
     correctAnswer: 'A retriever that shares the name of the custom search index',
+    testId: 1,
   },
   {
     question:
@@ -557,6 +613,7 @@ export const QUESTIONS: Question[] = [
       'Agentforce SDR only support custom objects associated with Accounts.',
     ],
     correctAnswer: 'Agentforce SDR only works with the standard Lead object.',
+    testId: 1,
   },
   {
     question: 'How does the Al retriever function within Data Cloud?',
@@ -567,12 +624,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'It performs contextual searches over an indexed repository to quickly fetch the most relevant documents, \nenabling grounding Al responses with trustworthy, verifiable information.',
+    testId: 1,
   },
   {
     question:
       'Universal Containers (UC) wants to leverage Generative Al Salesforce functionality to reduce Service Agent handling time by \nproviding recommended replies based on the existing Knowledge articles. \nOn which Al capability should UC train the service agents?',
     answers: ['Knowledge Replies', 'Service Replies', 'Case Replies'],
     correctAnswer: 'Service Replies',
+    testId: 1,
   },
   {
     question:
@@ -583,6 +642,7 @@ export const QUESTIONS: Question[] = [
       'Create a flow to retrieve the opportunity information.',
     ],
     correctAnswer: 'Create a flow to retrieve the opportunity information.',
+    testId: 1,
   },
   {
     question:
@@ -594,24 +654,28 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Data preparation involves loading, chunking, vectorizing, and storing content in a search-optimized manner to \nsupport retrieval from the vector database.',
+    testId: 2,
   },
   {
     question:
       'Universal Containers (UC) wants to enable its sales team with automatic post-call visibility into mention of competitors, products, \nand other custom phrases. \nWhich feature should the company use to enable the sales team?',
     answers: ['Call Insights', 'Call Explorer', 'Call Summaries'],
     correctAnswer: 'Call Insights',
+    testId: 2,
   },
   {
     question:
       'Before activating a custom Agent action, an Agentforce Specialist would like to understand multiple real-world user utterances to \nensure the action Is being selected appropriately. \nWhich tool should the Agentforce Specialist recommend?',
     answers: ['Agent Builder', 'Model Playground', 'Agentforce'],
     correctAnswer: 'Agent Builder',
+    testId: 2,
   },
   {
     question:
       'Universal Containers (UC) has a legacy system that needs to integrate with Salesforce. UC wishes to create a digest of account \naction plans using the generative API feature. \nWhich API service should UC use to meet this requirement?',
     answers: ['SOAP API', 'REST API', 'Metadata API'],
     correctAnswer: 'REST API',
+    testId: 2,
   },
   {
     question:
@@ -622,6 +686,7 @@ export const QUESTIONS: Question[] = [
       "Verify the retriever's filter criteria and data source connection.",
     ],
     correctAnswer: "Verify the retriever's filter criteria and data source connection.",
+    testId: 2,
   },
   {
     question:
@@ -632,6 +697,7 @@ export const QUESTIONS: Question[] = [
       'The Data Retriever can be reconfigured to use a different data source.',
     ],
     correctAnswer: 'The data source cannot be changed after it is selected.',
+    testId: 2,
   },
   {
     question:
@@ -643,6 +709,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create concise, clear, and consistent prompt templates with effective grounding, contextual role-playing, clear \ninstructions, and iterative feedback.',
+    testId: 2,
   },
   {
     question:
@@ -654,12 +721,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Custom sales email template which is grounded with interest and product information',
+    testId: 2,
   },
   {
     question:
       'Universal Containers would like to route a service agent conversation to a human agent queue. \nWhich tool connects the service agent to the human agent queue for escalation?',
     answers: ['Prompt Flow', 'Outbound Omni-Channel Flow', 'Screen Flow'],
     correctAnswer: 'Outbound Omni-Channel Flow',
+    testId: 2,
   },
   {
     question:
@@ -670,12 +739,14 @@ export const QUESTIONS: Question[] = [
       'Ensure the input and output types are correctly chosen.',
     ],
     correctAnswer: 'Review the Action Instructions to ensure they are unique.',
+    testId: 2,
   },
   {
     question:
       'When a customer chat Is initiated, which functionality in Salesforce provides generative Al replies or draft emails based on \nrecommended Knowledge articles?',
     answers: ['Einstein Reply Recommendations', 'Einstein Service Replies', 'Einstein Grounding'],
     correctAnswer: 'Einstein Service Replies',
+    testId: 2,
   },
   {
     question:
@@ -687,6 +758,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'It automates the ingestion, indexing of data, and creates a default retriever to be used in prompts and agents for \ngrounding with relevant information.',
+    testId: 2,
   },
   {
     question:
@@ -697,6 +769,7 @@ export const QUESTIONS: Question[] = [
       'Recreate the flow using the Agentforce Agent user.',
     ],
     correctAnswer: 'Assign the Run Flows permission to the Agentforce Agent user.',
+    testId: 2,
   },
   {
     question:
@@ -708,6 +781,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Prompt Template Manager for creating templates and Prompt Template User for executing templates',
+    testId: 2,
   },
   {
     question:
@@ -719,6 +793,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Ensure the retriever’s filters are defined to limit the scope of each search efficiently.',
+    testId: 2,
   },
   {
     question:
@@ -729,12 +804,14 @@ export const QUESTIONS: Question[] = [
       'Unified-object linking flow',
     ],
     correctAnswer: 'Template-triggered prompt flow',
+    testId: 2,
   },
   {
     question:
       'Leadership needs to populate a dynamic form field with a summary or description created by a large language model (LLM) to \nfacilitate more productive conversations with customers. Leadership also wants to keep a human in the loop to be considered In \ntheir AI strategy. \nWhich prompt template type should the Agentforce Specialist recommend?',
     answers: ['Sales Email', 'Field Generation', 'Record Summary'],
     correctAnswer: 'Field Generation',
+    testId: 2,
   },
   {
     question:
@@ -745,6 +822,7 @@ export const QUESTIONS: Question[] = [
       'Use merge fields to reference the default related list of opportunities.',
     ],
     correctAnswer: 'Use merge fields to reference the default related list of opportunities.',
+    testId: 2,
   },
   {
     question: 'What Is the primary function of the reasoning engine in Agentforce?',
@@ -754,6 +832,7 @@ export const QUESTIONS: Question[] = [
       'Identifying agent topics and actions to respond to user utterances',
     ],
     correctAnswer: 'Identifying agent topics and actions to respond to user utterances',
+    testId: 2,
   },
   {
     question:
@@ -764,6 +843,7 @@ export const QUESTIONS: Question[] = [
       'Creating a draft of a support bulletin post for new product patches',
     ],
     correctAnswer: 'Creating a draft of a support bulletin post for new product patches',
+    testId: 2,
   },
   {
     question:
@@ -774,6 +854,7 @@ export const QUESTIONS: Question[] = [
       'Assign the action to a Topic first on Action Builder.',
     ],
     correctAnswer: 'Assign the action to a Topic first in Agent Builder.',
+    testId: 2,
   },
   {
     question:
@@ -784,6 +865,7 @@ export const QUESTIONS: Question[] = [
       'Data Cloud is not required; the articles can be accessed directly from the CRM by the agent.',
     ],
     correctAnswer: 'Data Cloud stores and manages the indexed Knowledge articles.',
+    testId: 2,
   },
   {
     question:
@@ -794,23 +876,27 @@ export const QUESTIONS: Question[] = [
       'A data stream, a search index, and a retriever',
     ],
     correctAnswer: 'A data stream, a search index, and a retriever',
+    testId: 2,
   },
   {
     question: 'Which object stores the conversation transcript between the customer and the agent?',
     answers: ['Messaging End User', 'Case', 'Messaging Session'],
     correctAnswer: 'Messaging Session',
+    testId: 2,
   },
   {
     question:
       'A sales manager needs to contact leads at scale with hyper-relevant solutions and customized communications in the most \nefficient manner possible. \nWhich Salesforce solution best suits this need?',
     answers: ['Einstein Lead follow-up', 'Einstein Sales Assistant', 'Prompt Builder'],
     correctAnswer: 'Einstein Lead follow-up',
+    testId: 2,
   },
   {
     question:
       'An Agentforce Specialist is creating a custom action for Agentforce. \nWhich setting should the Agentforce Specialist test and iterate on to ensure the action performs as expected?',
     answers: ['Action Instructions', 'Action Input', 'Action Name'],
     correctAnswer: 'Action Instructions',
+    testId: 2,
   },
   {
     question:
@@ -821,6 +907,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'They forgot to edit the Lightning page layout and associate the field to a prompt template.',
+    testId: 2,
   },
   {
     question:
@@ -831,6 +918,7 @@ export const QUESTIONS: Question[] = [
       'Create a custom Agent action which calls a flow.',
     ],
     correctAnswer: 'Create a custom Agent action which calls a flow.',
+    testId: 2,
   },
   {
     question: 'What Is the correct process to leverage Prompt Builder in a Salesforce org?',
@@ -841,6 +929,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Select the appropriate prompt template type to use, develop the prompt within the prompt workspace, select \nresources to dynamically insert CRM-derived grounding data, pick the model to use, and test and validate the \ngenerated responses.',
+    testId: 2,
   },
   {
     question:
@@ -852,6 +941,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Salesforce Knowledge is not enabled in the organization; without Salesforce Knowledge enabled, the Knowledge- \nbased data source option will not be available in Einstein Data Libraries.',
+    testId: 2,
   },
   {
     question:
@@ -862,6 +952,7 @@ export const QUESTIONS: Question[] = [
       'Einstein Knowledge Recommendations',
     ],
     correctAnswer: 'Einstein Service Replies',
+    testId: 2,
   },
   {
     question:
@@ -873,6 +964,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The permission set assigned to the Agent User needs Read access to the custom Product Replacement object.',
+    testId: 2,
   },
   {
     question:
@@ -884,6 +976,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'It provides a structured, searchable repository of approved documents so the agent can retrieve reliable \ninformation for each inquiry.',
+    testId: 2,
   },
   {
     question:
@@ -895,6 +988,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "The LLM interprets the user's request, generates a plan by identifying the appropriate topics and actions, and \nexecutes the actions to retrieve and display the open opportunities.",
+    testId: 2,
   },
   {
     question:
@@ -905,6 +999,7 @@ export const QUESTIONS: Question[] = [
       'Create a prompt template-triggered flow to access the data from five objects.',
     ],
     correctAnswer: 'Create a flex template and use the five objects as inputs.',
+    testId: 2,
   },
   {
     question:
@@ -915,6 +1010,7 @@ export const QUESTIONS: Question[] = [
       'Use Sales Email standard templates.',
     ],
     correctAnswer: 'Create a Sales Email prompt template type.',
+    testId: 2,
   },
   {
     question:
@@ -926,12 +1022,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'View session data including user input and Agent responses for sessions over the past 7 days.',
+    testId: 2,
   },
   {
     question:
       'Based on the user utterance, ‘Show me all the customers in New York’, which standard Agent action will the planner service use?',
     answers: ['Fetch Records', 'Select Records', 'Query Records'],
     correctAnswer: 'Query Records',
+    testId: 2,
   },
   {
     question:
@@ -942,6 +1040,7 @@ export const QUESTIONS: Question[] = [
       'Amerge field has not been inserted in the prompt.',
     ],
     correctAnswer: 'The records related to the prompt have not been selected.',
+    testId: 2,
   },
   {
     question:
@@ -952,6 +1051,7 @@ export const QUESTIONS: Question[] = [
       'Create a custom Agent action calling a flow.',
     ],
     correctAnswer: 'Use the standard Agent action.',
+    testId: 2,
   },
   {
     question:
@@ -962,6 +1062,7 @@ export const QUESTIONS: Question[] = [
       'Update the search index to include the desired field.',
     ],
     correctAnswer: 'Update the search index to include the desired field.',
+    testId: 2,
   },
   {
     question:
@@ -973,6 +1074,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Deploy flows, Apex, and all agent-related items using either change sets or the Salesforce CLI/Metadata API.',
+    testId: 2,
   },
   {
     question:
@@ -983,6 +1085,7 @@ export const QUESTIONS: Question[] = [
       'Sales rep users profiles are missing the Allow SDR Agent permission.',
     ],
     correctAnswer: 'Sales rep users are missing the Use SDR Agent permission set.',
+    testId: 2,
   },
   {
     question:
@@ -993,6 +1096,7 @@ export const QUESTIONS: Question[] = [
       'The user does not have the field Generative AI User permission set assigned.',
     ],
     correctAnswer: 'The user does not have the Prompt Template User permission set assigned.',
+    testId: 2,
   },
   {
     question:
@@ -1004,12 +1108,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Hybrid search indexes support both literal keyword matches and semantic recall, useful when queries mix specific \nterms and intent.',
+    testId: 2,
   },
   {
     question:
       'Before activating a custom agent action, an Agentforce Specialist would like to evaluate multiple real-world user utterances to \nensure the action is being selected appropriately. \nWhich tool should the Agentforce Specialist recommend?',
     answers: ['Testing Center', 'Agentforce Builder', 'Prompt Builder'],
     correctAnswer: 'Testing Center',
+    testId: 2,
   },
   {
     question:
@@ -1020,6 +1126,7 @@ export const QUESTIONS: Question[] = [
       'Use External Service Record merge fields.',
     ],
     correctAnswer: "Use the 'Add Prompt Instructions' flow element.",
+    testId: 2,
   },
   {
     question:
@@ -1031,6 +1138,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'That the Lightning page layout where the field will reside has been upgraded to Dynamic Forms',
+    testId: 2,
   },
   {
     question:
@@ -1042,6 +1150,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Upload the PDFs as File source in the Agentforce Data Library which will build a Search Index, and create a \nretriever to ground responses from those documents.',
+    testId: 2,
   },
   {
     question:
@@ -1053,6 +1162,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Examine the prompt instructions and contents of the chunks shown in the resolved prompt output.',
+    testId: 2,
   },
   {
     question:
@@ -1064,6 +1174,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Service Agent to resolve the case end-to-end and create a new opportunity for the sales team',
+    testId: 2,
   },
   {
     question:
@@ -1075,6 +1186,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Provide the large language model (LLM) with contextual information and give it a role such as a sales or support \nrep.',
+    testId: 2,
   },
   {
     question: 'What is the purpose of applying filters in a custom retriever configuration?',
@@ -1085,12 +1197,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Filters narrow the search results by applying up to 10 conditions based on fields defined in the search index, \nthereby enhancing the relevancy of the content returned.',
+    testId: 2,
   },
   {
     question:
       "Universal Containers (UC) is preparing and defining success criteria for Agentforce Testing Center test cases. \nWhich details should UC specify as the expected output to ensure the tests accurately reflect the agent's functionality?",
     answers: ['Expected Flow API Name', 'Expected Topic API Name', 'Expected Prompt Template Name'],
     correctAnswer: 'Expected Topic API Name',
+    testId: 2,
   },
   {
     question:
@@ -1102,6 +1216,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Upload a structured CSV test template and run batch test cases in Testing Center.',
+    testId: 2,
   },
   {
     question:
@@ -1113,6 +1228,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a variable to store the verification status, set it as output from a “Verify Identity” action, and apply a filter so Pp PPly \nany case-related actions only run when the variable confirms verification.',
+    testId: 2,
   },
   {
     question:
@@ -1123,6 +1239,7 @@ export const QUESTIONS: Question[] = [
       'Manually delete the stale data chunks.',
     ],
     correctAnswer: 'Rebuild the search index.',
+    testId: 2,
   },
   {
     question:
@@ -1134,12 +1251,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create custom variables that store completion status for each step, then implement conditional filters on \nsubsequent actions requiring previous variables to be populated, ensuring deterministic execution order.',
+    testId: 2,
   },
   {
     question:
       'Universal Containers (UC) needs to create a prompt template that provides a detailed product description based on the latest \nproduct data. The description will be used in marketing materials to ensure consistency and accuracy. \nWhich prompt template type should UC use?',
     answers: ['Field Generation', 'Record Summary', 'Sales Email'],
     correctAnswer: 'Field Generation',
+    testId: 2,
   },
   {
     question:
@@ -1151,6 +1270,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Update the Object and Field access in the AgentforceServiceAgentUserPsg permission set group that is already \nassigned to the Agentforce Service Agent user.',
+    testId: 2,
   },
   {
     question:
@@ -1161,12 +1281,14 @@ export const QUESTIONS: Question[] = [
       'Configure MuleSoft to establish a secure API tunnel between the agent and the Digital Experience site.',
     ],
     correctAnswer: 'Create an Omni-Channel flow that routes messages to the agent.',
+    testId: 3,
   },
   {
     question:
       "Universal Containers (UC) needs to capture and store detailed interaction data for all agents. \nWhich feature should help UC get a full view of the agent's behavior from start to finish, including reasoning engine executions, \nactions, prompt and gateway inputs/outputs, error messages, and final responses?",
     answers: ['Agentforce Analytics', 'Utterance Analysis', 'Agentforce Session Tracing'],
     correctAnswer: 'Agentforce Session Tracing',
+    testId: 3,
   },
   {
     question:
@@ -1177,6 +1299,7 @@ export const QUESTIONS: Question[] = [
       'An agent can have only one data library assigned to it.',
     ],
     correctAnswer: 'An agent can have only one data library assigned to it.',
+    testId: 3,
   },
   {
     question:
@@ -1187,6 +1310,7 @@ export const QUESTIONS: Question[] = [
       'Create a Record Summary custom prompt template.',
     ],
     correctAnswer: 'Create a Record Summary custom prompt template.',
+    testId: 3,
   },
   {
     question:
@@ -1197,6 +1321,7 @@ export const QUESTIONS: Question[] = [
       'Conversation-based chunking',
     ],
     correctAnswer: 'Section-aware chunking',
+    testId: 3,
   },
   {
     question:
@@ -1208,24 +1333,28 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Assign the Prompt Template User permission set and enable Sales Emails in Setup.',
+    testId: 3,
   },
   {
     question:
       'A developer is using the Salesforce CLI to deploy agent components from a sandbox to production. They recently made a change \nto several topics, instructions, and actions. \nWhich metadata component should the developer include in their package.xml file that contains all of the topics and actions an \nagent will interact with?',
     answers: ['genAiPlannerBundle', 'BotBundle', 'EinsteinAiPiannerBundle'],
     correctAnswer: 'genAiPlannerBundle',
+    testId: 3,
   },
   {
     question:
       'Universal Containers needs to create Data Cloud reports to understand agent behavior. \nWhich data lake object (DLO) represents an overarching container capturing contiguous interactions with one or more AI agents?',
     answers: ['AlAgentInteraction', 'AlAgentinteractionMessage', 'AlAgentSession'],
     correctAnswer: 'AlAgentSession',
+    testId: 3,
   },
   {
     question:
       'The Agentforce Specialist for Cloud Kicks wants to create an agent that will allow the sales staff to schedule their daily tasks, and \nassist in providing detailed explanations behind prices and deals of the products. \nFollowing Salesforce best practices, which type of agent should the Agentforce Specialist create?',
     answers: ['Service Agent', 'Sales Agent', 'Employee Agent'],
     correctAnswer: 'Sales Agent',
+    testId: 3,
   },
   {
     question:
@@ -1236,6 +1365,7 @@ export const QUESTIONS: Question[] = [
       'Al-generated synthetic test utterances based on natural language variations',
     ],
     correctAnswer: 'Al-generated synthetic test utterances based on natural language variations',
+    testId: 3,
   },
   {
     question:
@@ -1247,12 +1377,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "Use the Agent API to start the downstream agent's session and pass the verified customer ID as a read-only \ncontext variable, ensuring security and preventing LLM alteration.",
+    testId: 3,
   },
   {
     question:
       'Universal Containers (UC) wants to empower its marketing team with AI capabilities that help employees quickly find campaign \ndata, generate creative content, and manage project tasks. The solution should also allow marketers to receive personalized \nsupport, surface relevant information, and complete work directly in Salesforce. \nWhich AI solution should UC implement?',
     answers: ['Service Agent', 'Employee Agent', 'Sales Coach Agent'],
     correctAnswer: 'Employee Agent',
+    testId: 3,
   },
   {
     question: 'What is automatically created when a search index is created in Data Cloud?',
@@ -1262,6 +1394,7 @@ export const QUESTIONS: Question[] = [
       'A predefined Apex retriever class that can be edited by a developer to meet specific needs',
     ],
     correctAnswer: 'A default retriever that shares the name of the custom search index',
+    testId: 3,
   },
   {
     question:
@@ -1273,6 +1406,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'A legal assistant agent using MCP to dynamically find a document classification API to analyze case files',
+    testId: 3,
   },
   {
     question:
@@ -1283,6 +1417,7 @@ export const QUESTIONS: Question[] = [
       'The name of the LLM does not match in sandbox and production.',
     ],
     correctAnswer: 'The name of the LLM does not match in sandbox and production.',
+    testId: 3,
   },
   {
     question:
@@ -1293,6 +1428,7 @@ export const QUESTIONS: Question[] = [
       'The data being used for grounding ts incorrect or incomplete.',
     ],
     correctAnswer: 'The data being used for grounding ts incorrect or incomplete.',
+    testId: 3,
   },
   {
     question:
@@ -1303,6 +1439,7 @@ export const QUESTIONS: Question[] = [
       'Run tests in the production environment to ensure real-time data accuracy.',
     ],
     correctAnswer: 'Use the Testing Center only in the sandbox environment.',
+    testId: 3,
   },
   {
     question:
@@ -1313,6 +1450,7 @@ export const QUESTIONS: Question[] = [
       'Depend on the agent’s prompt to avoid exposing PII.',
     ],
     correctAnswer: 'Mask sensitive fields and index only non-PII data.',
+    testId: 3,
   },
   {
     question:
@@ -1324,6 +1462,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'After selecting a related list from the Account, use the field picker to choose merge fields in Prompt Builder.',
+    testId: 3,
   },
   {
     question: 'What does it mean when a prompt template version is described as immutable?',
@@ -1334,12 +1473,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'After a prompt template version is activated, no further changes can be saved to that version.',
+    testId: 3,
   },
   {
     question:
       'An Agentforce Specialist is creating a custom agent action. The topic is selected correctly, but the action is not. \nWhich setting should the Agentforce Specialist test and iterate on to ensure the action performs as expected?',
     answers: ['Action Scope', 'Classification Description', 'Action Instructions'],
     correctAnswer: 'Action Instructions',
+    testId: 3,
   },
   {
     question:
@@ -1351,6 +1492,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The custom action adheres to the permissions, field-level security, and sharing settings configured in the flow.',
+    testId: 3,
   },
   {
     question:
@@ -1362,6 +1504,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Use keyword search for exact term matching on structured fields like clause numbers.',
+    testId: 3,
   },
   {
     question:
@@ -1373,6 +1516,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create an outbound change set with all the necessary agent components, then upload to production.',
+    testId: 3,
   },
   {
     question: "How does Agentforce select the correct action to resolve a user's request?",
@@ -1383,6 +1527,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "The large language model (LLM) selects the right topic and action, if they exist. If there are no matches, the LLM \nattempts to answer the user's request.",
+    testId: 3,
   },
   {
     question: 'When is the Agent-to-Agent (A2A) protocol an appropriate communication choice?',
@@ -1392,6 +1537,7 @@ export const QUESTIONS: Question[] = [
       'When agents need to access tools',
     ],
     correctAnswer: 'When agents need to collaborate',
+    testId: 3,
   },
   {
     question:
@@ -1402,12 +1548,14 @@ export const QUESTIONS: Question[] = [
       'Create an embedded service deployment and connection between Salesforce and the Slack workspace.',
     ],
     correctAnswer: 'Create a connection between Salesforce and the Slack workspace.',
+    testId: 3,
   },
   {
     question:
       'Universal Containers (UC) needs to create a custom prompt template that can be called from a Lightning web component. \nWhich prompt template type should UC create?',
     answers: ['Field Generation', 'Sales Email', 'Flex'],
     correctAnswer: 'Flex',
+    testId: 3,
   },
   {
     question:
@@ -1418,6 +1566,7 @@ export const QUESTIONS: Question[] = [
       'Response times, accuracy and relevance of answers, and resolution success',
     ],
     correctAnswer: 'Response times, accuracy and relevance of answers, and resolution success',
+    testId: 3,
   },
   {
     question:
@@ -1429,12 +1578,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create an unstructured data model object (UDMO) based on Case object and create an index on it.',
+    testId: 3,
   },
   {
     question:
       'Cloud Kicks wants to integrate its agent with its custom website. The goal is for customers to interact with the custom agent chat \ninterface. \nWhich approach provides the framework for the custom web application to communicate with the agent?',
     answers: ['Agent-to-Agent (A2A)', 'Agent API', 'Model Context Protocol (MCP)'],
     correctAnswer: 'Agent API',
+    testId: 3,
   },
   {
     question:
@@ -1446,6 +1597,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a context variable for the account status field and apply a conditional filter AccountStatus equals “Active” to \nrefund actions.',
+    testId: 3,
   },
   {
     question:
@@ -1456,6 +1608,7 @@ export const QUESTIONS: Question[] = [
       'View the user click path that led to each agent action.',
     ],
     correctAnswer: 'View session data including user input and agent responses for sessions.',
+    testId: 3,
   },
   {
     question:
@@ -1467,6 +1620,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Follow the principle of least privilege and avoid granting permission to view the Medical Product object or related \nfields.',
+    testId: 3,
   },
   {
     question:
@@ -1478,6 +1632,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Use hybrid search, which combines keyword matching for precision with semantic embeddings for context.',
+    testId: 3,
   },
   {
     question:
@@ -1489,12 +1644,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Configure custom variables to capture/store customer preferences from action outputs.',
+    testId: 3,
   },
   {
     question:
       'Universal Containers (UC) recently attended a major trade show and received thousands of new leads from event badge scans. UC \nis struggling to follow up with each lead in a timely, personalized way. Leadership wants to: \nQualify and nurture leads 24/7. \nProvide accurate answers to prospect questions. \nAutomatically book meetings with qualified prospects. \nFree up reps to focus on building relationships and closing deals. \nWhich Agentforce capability should UC implement to meet these goals?',
     answers: ['Sales Coach', 'Commerce Agent', 'SDR Agent'],
     correctAnswer: 'SDR Agent',
+    testId: 3,
   },
   {
     question:
@@ -1506,18 +1663,21 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Use a prompt template grounded on CRM and Data Cloud data using standard foundation models.',
+    testId: 3,
   },
   {
     question:
       'Sales reps at Universal Containers should not be able to create or edit prompt templates. \nWhich permission set should an Agentforce Specialist assign to the sales reps?',
     answers: ['Prompt Template Manager', 'Prompt Template User', 'Prompt Execute User'],
     correctAnswer: 'Prompt Execute User',
+    testId: 3,
   },
   {
     question:
       'Universal Containers (UC) is building a Flex prompt template. UC needs to use data returned by the flow in the prompt template. \nWhich flow element should UC use?',
     answers: ['Add Prompt Instructions', 'Add Flex Instructions', 'Add Flow Instructions'],
     correctAnswer: 'Add Prompt Instructions',
+    testId: 3,
   },
   {
     question:
@@ -1529,6 +1689,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The flow was not manually activated in the production org after the deployment.',
+    testId: 3,
   },
   {
     question:
@@ -1539,6 +1700,7 @@ export const QUESTIONS: Question[] = [
       'Ensure in the prompt that the LLM has been told to only use name value pairs in the response.',
     ],
     correctAnswer: 'Use well-defined output instructions and provide desired output examples.',
+    testId: 3,
   },
   {
     question: 'What is a key benefit of the Agent-to-Agent (A2A) protocol?',
@@ -1549,6 +1711,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Provides a standardized framework for cross-vendor agent discovery and communication',
+    testId: 3,
   },
   {
     question:
@@ -1559,6 +1722,7 @@ export const QUESTIONS: Question[] = [
       'Access Knowledge records and fields, and Allow View Knowledge',
     ],
     correctAnswer: 'Access Knowledge records and fields, and Allow View Knowledge',
+    testId: 3,
   },
   {
     question:
@@ -1569,6 +1733,7 @@ export const QUESTIONS: Question[] = [
       'Specify the persona who will request the action.',
     ],
     correctAnswer: 'Provide examples of user messages that are expected to trigger the action.',
+    testId: 3,
   },
   {
     question:
@@ -1580,6 +1745,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a custom variable IsCustomerVerified set by a verification action, then apply a conditional filter using the \nexpression IsCustomerVerified equals true to all sensitive data actions, ensuring deterministic access control that \nthe LLM can’t alter',
+    testId: 3,
   },
   {
     question:
@@ -1590,12 +1756,14 @@ export const QUESTIONS: Question[] = [
       'Runa script on event logs to identify the failed utterances.',
     ],
     correctAnswer: 'Use structured batch testing with validation per test utterance.',
+    testId: 3,
   },
   {
     question:
       "Universal Containers is building a digital shopping assistant that needs to dynamically generate product recommendations using \ninformation from the company's external product recommendation predictive model through APIs. \nWhich Agentforce capability should make it easier for the agent to consume the external product recommendation tool?",
     answers: ['Hugging Face', 'Model Context Protocol (MCP)', 'Agent-to-Agent (A2A) protocol'],
     correctAnswer: 'Model Context Protocol (MCP)',
+    testId: 3,
   },
   {
     question:
@@ -1606,6 +1774,7 @@ export const QUESTIONS: Question[] = [
       'Sales Agent with a Flex prompt template',
     ],
     correctAnswer: 'Service Agent with a Flex prompt template',
+    testId: 3,
   },
   {
     question:
@@ -1617,12 +1786,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Individual retrievers allow the configuration of filters, specified fields, and how many results are returned.',
+    testId: 3,
   },
   {
     question:
       'At Universal Containers, a sales manager is tackling a tough challenge as several new junior sales reps struggle with objection \nhandling and price negotiations for complex deals. The manager lacks the time to personally guide each sales rep through their \nspecific customer scenarios before their critical meetings. The junior sales reps have asked for a tool that would allow them to \npractice their pitches by simulating tough conversations and receive personalized feedback that is specific to the commerce \nopportunity they are working on. \nWhich Salesforce solution should an Agentforce Specialist recommend?',
     answers: ['SDR Agent', 'Employee Coach', 'Sales Coach'],
     correctAnswer: 'Sales Coach',
+    testId: 3,
   },
   {
     question:
@@ -1634,6 +1805,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a criteria-based sharing rule to grant access to targeted lead records to SDR Agent User.',
+    testId: 3,
   },
   {
     question:
@@ -1644,6 +1816,7 @@ export const QUESTIONS: Question[] = [
       'Disable the keyword index to rely solely on the vector index.',
     ],
     correctAnswer: 'Add a ranking factor for recency based on the LastModifiedDate field.',
+    testId: 3,
   },
   {
     question:
@@ -1655,6 +1828,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The Activities related list on the Account object is not supported because it is a polymorphic field.',
+    testId: 3,
   },
   {
     question: 'What is a valid use case for Data Cloud retrievers?',
@@ -1664,6 +1838,7 @@ export const QUESTIONS: Question[] = [
       'Modifying and updating data within the source systems connected to Data Cloud',
     ],
     correctAnswer: 'Returning relevant data from the vector database to augment a prompt',
+    testId: 3,
   },
   {
     question:
@@ -1675,6 +1850,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Add the activity records as an enrichment related list to the Contact, then pass the Contact into a prompt \ntemplate workspace using related list grounding.',
+    testId: 3,
   },
   {
     question:
@@ -1686,6 +1862,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'The agent must be manually activated in production, regardless of its status in the sandbox.',
+    testId: 3,
   },
   {
     question:
@@ -1696,6 +1873,7 @@ export const QUESTIONS: Question[] = [
       "Ensure the agent action label matches the utterance's intent.",
     ],
     correctAnswer: 'Write concise agent action instructions and test in Agentforce Builder.',
+    testId: 3,
   },
   {
     question:
@@ -1706,6 +1884,7 @@ export const QUESTIONS: Question[] = [
       'Review the token limit in the Einstein Trust Layer.',
     ],
     correctAnswer: 'Review the model limitation in Prompt Builder versus the grounding data size.',
+    testId: 3,
   },
   {
     question:
@@ -1717,6 +1896,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'A direct instruction to the large language model (LLM) to role-play as a character',
+    testId: 3,
   },
   {
     question:
@@ -1727,6 +1907,7 @@ export const QUESTIONS: Question[] = [
       'The Prompt Template Manager permission set was not assigned correctly.',
     ],
     correctAnswer: 'The Prompt Template Manager permission set was not assigned correctly.',
+    testId: 4,
   },
   {
     question:
@@ -1738,6 +1919,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Build a custom retriever in Einstein Studio with product line filters and recency ranking.',
+    testId: 4,
   },
   {
     question:
@@ -1748,6 +1930,7 @@ export const QUESTIONS: Question[] = [
       'The explicit order of actions in the topic',
     ],
     correctAnswer: 'The name and instructions of the actions',
+    testId: 4,
   },
   {
     question:
@@ -1759,12 +1942,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "Use Data Cloud's ‘Include Attachments’ option and select the ContentDocumentVersion unstructured data model \nobject (UDMO).",
+    testId: 4,
   },
   {
     question:
       "Cloud Kicks (CK) is launching a new partner portal on Experience Cloud. CK wants to provide partners with an agent that can \nanswer questions about product specifications from the knowledge base and allow them to submit a new Lead for a potential \ncustomer they've identified. The agent must be accessible only to authenticated partner users on the portal. \nWhich agent type is required to meet this scenario?",
     answers: ['Service Agent', 'Commerce Agent', 'Sales Agent'],
     correctAnswer: 'Service Agent',
+    testId: 4,
   },
   {
     question:
@@ -1775,6 +1960,7 @@ export const QUESTIONS: Question[] = [
       'Action instructions help the reasoning engine decide which action to use.',
     ],
     correctAnswer: 'Action instructions help the reasoning engine decide which action to use.',
+    testId: 4,
   },
   {
     question:
@@ -1786,6 +1972,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Examine the prompt instructions and contents of the chunks shown in the resolved prompt output.',
+    testId: 4,
   },
   {
     question:
@@ -1797,6 +1984,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       "Create a custom variable severityLevel populated by a Triage action. Add filters so the “Escalate to human \nservice rep” action only runs when severityLevel = 'High’, and the “Create Support Case” action runs only when \nseverityLevel != ‘High’.",
+    testId: 4,
   },
   {
     question:
@@ -1808,12 +1996,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Configure the Slack agent connection and, in Manage Agentforce, install the agent, then assign agent access to \nusers.',
+    testId: 4,
   },
   {
     question:
       "Universal Containers (UC) is preparing and defining success criteria for Agentforce Testing Center test cases. \nWhich details should UC specify as the expected output to ensure the tests accurately reflect the agent's functionality?",
     answers: ['Expected Prompt Template Name', 'Expected Topic API Name', 'Expected Flow API Name'],
     correctAnswer: 'Expected Topic API Name',
+    testId: 4,
   },
   {
     question:
@@ -1824,6 +2014,7 @@ export const QUESTIONS: Question[] = [
       'Use semantic search only, as natural language is always preferred.',
     ],
     correctAnswer: 'Use hybrid search to combine keyword precision with semantic flexibility.',
+    testId: 4,
   },
   {
     question:
@@ -1834,6 +2025,7 @@ export const QUESTIONS: Question[] = [
       'Generate details reports on all agent conversations over any time period.',
     ],
     correctAnswer: 'View session data including user input and agent responses for sessions.',
+    testId: 4,
   },
   {
     question:
@@ -1845,6 +2037,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Accessing data model objects (DMOs) directly in Flex templates, using Data Cloud related lists, and fetching Data \nCloud data using prompt-initiated flows',
+    testId: 4,
   },
   {
     question:
@@ -1855,6 +2048,7 @@ export const QUESTIONS: Question[] = [
       'No action needed; the Service Agent connects automatically.',
     ],
     correctAnswer: 'Create an Email Configuration for the Service Agent.',
+    testId: 4,
   },
   {
     question:
@@ -1865,6 +2059,7 @@ export const QUESTIONS: Question[] = [
       'Topic Name and Classification Description',
     ],
     correctAnswer: 'Topic Name and Classification Description',
+    testId: 4,
   },
   {
     question:
@@ -1875,18 +2070,21 @@ export const QUESTIONS: Question[] = [
       'Use sandbox environments replicated from production for safe testing.',
     ],
     correctAnswer: 'Use sandbox environments replicated from production for safe testing.',
+    testId: 4,
   },
   {
     question:
       "Universal Containers (UC) has effectively utilized prompt templates to update summary fields on Lightning record pages. An \nadmin now wishes to incorporate similar functionality into UC's automation processes using Flow. \nHow should the admin get a response from this prompt template from within a flow to use as part of UC's automation?",
     answers: ['Einstein for Flow', 'Flow action', 'Invocable Apex'],
     correctAnswer: 'Flow action',
+    testId: 4,
   },
   {
     question:
       'Coral Cloud Resorts wants visibility into credit usage associated with testing. \nWhich feature supports this?',
     answers: ['Digital Wallet', 'Testing Center', 'Agentforce Analytics'],
     correctAnswer: 'Digital Wallet',
+    testId: 4,
   },
   {
     question:
@@ -1898,6 +2096,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Upload the PDFs as File source in the Agentforce Data Library which will build a Search Index, and create a \nretriever to ground responses from those documents.',
+    testId: 4,
   },
   {
     question:
@@ -1908,6 +2107,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Role: You are an experienced support agent. \nTask: Summarize the case notes. \nContext: Include customer issue, troubleshooting steps, and next actions. \nConstraints: Limit to 5 sentences, use plain language, and if no next action is found, state “No next action \nrequired.” \nFormat: Use numbered sentences for clarity.',
+    testId: 4,
   },
   {
     question:
@@ -1918,6 +2118,7 @@ export const QUESTIONS: Question[] = [
       'Model Context Protocol (MCP) server support',
     ],
     correctAnswer: 'MuleSoft connector for custom hosted processes',
+    testId: 4,
   },
   {
     question:
@@ -1928,12 +2129,14 @@ export const QUESTIONS: Question[] = [
       'Rebuild the search index.',
     ],
     correctAnswer: 'Rebuild the search index.',
+    testId: 4,
   },
   {
     question:
       "Universal Containers (UC) needs to capture and store detailed interaction data for all agents. \nWhich feature should help UC get a full view of the agent's behavior from start to finish, including reasoning engine executions, \nactions, prompt and gateway inputs/outputs, error messages, and final responses?",
     answers: ['Utterance Analysis', 'Agentforce Analytics', 'Agentforce Session Tracing'],
     correctAnswer: 'Agentforce Session Tracing',
+    testId: 4,
   },
   {
     question:
@@ -1944,6 +2147,7 @@ export const QUESTIONS: Question[] = [
       'Relying on live customer logs to capture phrasing diversity after deployment',
     ],
     correctAnswer: 'Al-generated synthetic test utterances based on natural language variations',
+    testId: 4,
   },
   {
     question:
@@ -1954,6 +2158,7 @@ export const QUESTIONS: Question[] = [
       'BYOLLM is not yet supported for in prompt templates in production.',
     ],
     correctAnswer: 'The name of the LLM does not match in sandbox and production.',
+    testId: 4,
   },
   {
     question:
@@ -1965,12 +2170,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'In the data library setting window, under Knowledge Settings, enable Use Public Knowledge Article and select \nShow sources.',
+    testId: 4,
   },
   {
     question:
       'Universal Containers (UC) plans to automatically populate the Description field on the Account object. \nWhich type of prompt template should UC use?',
     answers: ['Flex', 'Sales Email', 'Field Generation'],
     correctAnswer: 'Field Generation',
+    testId: 4,
   },
   {
     question:
@@ -1981,6 +2188,7 @@ export const QUESTIONS: Question[] = [
       'Call a template using an autolaunched flow.',
     ],
     correctAnswer: 'Associate the template with the form field on the Lightning page.',
+    testId: 4,
   },
   {
     question:
@@ -1992,12 +2200,14 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Create a context variable mapped to the customer’s membership tier field, then add a conditional filter on \nMembershipTier.',
+    testId: 4,
   },
   {
     question:
       'Coral Cloud Resorts wants to handle frequent customer misspellings of package names in queries. \nWhich approach should the Agentforce Specialist implement?',
     answers: ['Vector search', 'Hybrid search', 'Keyword search'],
     correctAnswer: 'Hybrid search',
+    testId: 4,
   },
   {
     question:
@@ -2009,6 +2219,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'Use Hybrid Search and apply pre-filtering in a new custom retriever for matching accounts and where the \nWarrantyStatus = Active field.',
+    testId: 4,
   },
   {
     question:
@@ -2020,6 +2231,7 @@ export const QUESTIONS: Question[] = [
     ],
     correctAnswer:
       'SDR Agent for lead qualification, Service Agent for support tickets, Employee Agent for HR requests',
+    testId: 4,
   },
   {
     question:
@@ -2030,5 +2242,6 @@ export const QUESTIONS: Question[] = [
       'Specify custom variables and filters.',
     ],
     correctAnswer: 'Specify custom variables and filters.',
+    testId: 4,
   },
 ];

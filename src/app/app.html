@@ -1,4 +1,16 @@
-<div class="container" *ngIf="!showResult">
+<div class="container" *ngIf="showTestSelection">
+  <h2>Select Test</h2>
+
+  <button (click)="startTest(1)">Test 1</button>
+  <button (click)="startTest(2)">Test 2</button>
+  <button (click)="startTest(3)">Test 3</button>
+  <button (click)="startTest(4)">Test 4</button>
+</div>
+
+<div class="container" *ngIf="!showTestSelection && !showResult">
+  <!-- existing quiz UI -->
+  <!-- QUESTION NUMBER NAVIGATION -->
+
   <h2>Question {{ currentIndex + 1 }} / {{ questions.length }}</h2>
 
   <p class="question">
@@ -27,22 +39,38 @@
       {{ answer }}
     </label>
   </div>
+  <div class="nav-buttons">
+    <!-- PREVIOUS -->
+    <button class="prev-btn" [disabled]="currentIndex === 0" (click)="previousQuestion()">
+      Previous
+    </button>
 
-  <button
-    class="check-btn"
-    [disabled]="!questions[currentIndex].selectedAnswer || questions[currentIndex].isChecked"
-    (click)="checkAnswer()"
-  >
-    Check Answer
-  </button>
+    <!-- CHECK (OPTIONAL) -->
+    <button
+      class="check-btn"
+      [disabled]="!questions[currentIndex].selectedAnswer || questions[currentIndex].isChecked"
+      (click)="checkAnswer()"
+    >
+      Check Answer
+    </button>
 
-  <button
-    class="next-btn"
-    [disabled]="!questions[currentIndex].selectedAnswer"
-    (click)="nextQuestion()"
-  >
-    {{ currentIndex === questions.length - 1 ? 'Finish' : 'Next' }}
-  </button>
+    <!-- NEXT / SKIP -->
+    <button class="next-btn" (click)="nextQuestion()">
+      {{ currentIndex === questions.length - 1 ? 'Finish' : 'Next / Skip' }}
+    </button>
+  </div>
+  <p></p>
+  <div class="question-nav">
+    <button
+      *ngFor="let q of questions; let i = index"
+      (click)="goToQuestion(i)"
+      [class.active]="i === currentIndex"
+      [class.answered]="q.selectedAnswer"
+      [class.skipped]="!q.selectedAnswer && i < currentIndex"
+    >
+      {{ i + 1 }}
+    </button>
+  </div>
 </div>
 
 <!-- RESULT -->
