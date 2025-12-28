@@ -25,6 +25,12 @@ export class AppComponent {
   showResult = false;
   score = 0;
 
+  showQuestionNav = false;
+
+  toggleQuestionNav() {
+    this.showQuestionNav = !this.showQuestionNav;
+  }
+
   startTest(testId: number) {
     this.selectedTestId = testId;
 

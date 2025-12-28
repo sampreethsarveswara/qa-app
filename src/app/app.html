@@ -60,10 +60,17 @@
     </button>
   </div>
   <p></p>
-  <div class="question-nav">
+
+  <!-- TOGGLE BUTTON -->
+  <button class="toggle-nav-btn" (click)="toggleQuestionNav()">
+    {{ showQuestionNav ? 'Hide all questions' : 'Show all questions' }}
+  </button>
+
+  <!-- QUESTION NUMBER NAVIGATION -->
+  <div class="question-nav" *ngIf="showQuestionNav">
     <button
       *ngFor="let q of questions; let i = index"
-      (click)="goToQuestion(i)"
+      (click)="goToQuestion(i); showQuestionNav = false"
       [class.active]="i === currentIndex"
       [class.answered]="q.selectedAnswer"
       [class.skipped]="!q.selectedAnswer && i < currentIndex"
