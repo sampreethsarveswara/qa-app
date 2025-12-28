@@ -17,9 +17,9 @@ export class AppComponent {
 
   testOffsets: Record<number, number> = {
     1: 0,
-    2: 62,
-    3: 124,
-    4: 186,
+    2: 61,
+    3: 121,
+    4: 181,
   };
 
   allQuestions = QUESTIONS;
